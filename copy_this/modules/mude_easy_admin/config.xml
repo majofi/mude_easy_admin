@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <MODULE id="HEADLINE" namespace="mude">
+    <GROUP id="FIRST_GROUP">
+      <SETTING id="blTesti" type="boolean" />
+      <SETTING id="sTesti2" type="string" />
+      <SETTING id="arrFoo" type="array" />
+    </GROUP>
+
+    <GROUP id="SECOND_GROUP">
+      <SETTING id="blTesti3" type="boolean"/>
+      <SETTING id="sVal" type="string" >
+        <OPTION id="OPT1">la</OPTION>
+        <OPTION id="OPT2">le</OPTION>
+        <OPTION id="OPT3">lu</OPTION>
+      </SETTING>
+    </GROUP>
+  </MODULE>
+
+
+    <MODULE id="HEADLINE2" namespace="mude">
+    <GROUP id="FIRST_GROUP">
+      <SETTING id="blAnotherTesti" type="boolean" />
+      <SETTING id="sAnotherTesti2" type="string" />
+    </GROUP>
+
+    <GROUP id="SECOND_GROUP"> 
+      <SETTING id="blTesti3" tyype="boolean"/>
+      <SETTING id="aVal" type="array">
+        <OPTION id="OPTI1">foo</OPTION> <!-- NOT SUPPORTED YET-->
+        <OPTION id="OPTI2">bar</OPTION> <!-- NOT SUPPORTED YET-->
+        <OPTION id="OPTI3">foobar</OPTION> <!-- NOT SUPPORTED YET-->
+      </SETTING>
+    </GROUP>
+  </MODULE>
+  
+</CONFIG>

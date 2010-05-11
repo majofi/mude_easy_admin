@@ -1,0 +1,10 @@
+<OX>
+    <OXMENU id="NAVIGATION_ESHOPADMIN">
+        <MAINMENU id="mxmainmenu">
+            <SUBMENU id="mxcoresett" cl="shop" list="shop_list">
+                <TAB id="mude_easy_admin" cl="mude_easy_admin_main" />
+             </SUBMENU>
+         </MAINMENU>
+     </OXMENU>
+ </OX>   
+  
