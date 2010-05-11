@@ -1,0 +1,42 @@
+== Title ==
+Easy Admin Modul
+
+== Author ==
+Mathias Fiedler
+
+== Prefix ==
+mude
+
+== Version ==
+0.1
+
+== Link ==
+http://github.com/majofi/mude_easy_admin
+
+== Mail ==
+mathias@musterdenker.de
+
+== Description ==
+This modules improves the extensibility of the OXID eShop admin. 
+It introduces a new smarty plugin called mude_easy_admin_config_input. It can be used in every config templates (e.g.shop_config.tpl) with a view class based on shop_config.
+It will create a element for user input of an oxconfig value.
+Possible calls are:
+$sSetting -> the id under which the value will be stored in the DB, also 2 Lang constants are needed: CONFIG_$sSetting and HELP_$sSetting
+[{mude_easy_admin_config_input name=$sSetting type="checkbox"}] --> checkbox
+[{mude_easy_admin_config_input name=$sSetting type="select" options=$oElement->options}] --> select element with options as array ID -> value
+[{mude_easy_admin_config_input name=$sSetting type="text"}] --> text field input
+[{mude_easy_admin_config_input name=$sSetting type="array"}] --> textarea box for an OXID config array element
+All files called "config.xml" in subfolder of "modules" directory will be parsed. Have a look at "example_config.xml" in installation folder.
+A new Tab in Master Settings -> Core Settings should appear.
+
+== Extends ==
+nothing
+ 
+
+== Instalation ==
+copy the contents of the folder "copy_this" to shop root.
+empty "tmp" directory
+
+== Modules ==
+
+== Libraries ==
